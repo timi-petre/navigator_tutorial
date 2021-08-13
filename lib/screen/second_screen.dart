@@ -3,6 +3,7 @@ import 'package:navigator_tutorial/screen/third_screen.dart';
 
 class SecondScreen extends StatelessWidget {
   final String name;
+
   final int age;
   const SecondScreen({Key? key, required this.name, required this.age})
       : super(key: key);

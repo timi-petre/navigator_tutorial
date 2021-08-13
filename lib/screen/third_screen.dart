@@ -13,7 +13,10 @@ class ThirdScreen extends StatelessWidget {
         body: Center(
           child: ElevatedButton(
             onPressed: () {
-              Navigator.pop(context, 'hello world');
+              Navigator.pop(
+                context,
+                'hello world',
+              );
             },
             style: ElevatedButton.styleFrom(
               padding: EdgeInsets.all(20),
